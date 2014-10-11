@@ -1,0 +1,31 @@
+{
+  "name": "mongodb-discuss",
+  "version": "0.0.1",
+  "description": "A simple discussion/forum backend built on mongodb",
+  "main": "api.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Like-Falling-Leaves/mongodb-discuss.git"
+  },
+  "keywords": [
+    "mongodb",
+    "discussion",
+    "discuss",
+    "forum",
+    "lists"
+  ],
+  "author": "Like Falling Leaves (http://github.com/Like-Falling-Leaves)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": { "lazy.js" : "latest", "mongodb-models": "latest" },
+  "devDependencies": { "mocha": "1.*" },
+  "bugs": {
+    "url": "https://github.com/Like-Falling-Leaves/mongodb-discuss/issues"
+  }
+}
