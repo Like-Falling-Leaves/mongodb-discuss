@@ -198,6 +198,8 @@ function api(options) {
 
   // expected callbacks
   function deliverMessage(topic, message, from, to, addedTo) {
+    to = _(to).without(from).value();
+    addTo = _(addedTo).without(from).value();
     return ret.emit('mail', {topic: topic, from: from, to: to, addedTo: addedTo, message: message});
   }
 }
