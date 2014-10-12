@@ -1,6 +1,6 @@
 {
   "name": "mongodb-discuss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple discussion/forum backend built on mongodb",
   "main": "api.js",
   "directories": {
